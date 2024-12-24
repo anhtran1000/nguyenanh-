@@ -368,14 +368,21 @@ window.onload = () => {
 
     function showLetter(normalizedUserName) {
         let messageContent;
-        if (normalizedUserName.includes('khanh')) {
-            messageContent = "Chúc Em có một mùa Giáng sinh an lành bên Người Thân, Bạn Bè và Anh!\n\nMong rằng mỗi khoảnh khắc của em đều tràn đầy niềm vui và hạnh phúc. Anh cảm ơn em vì đã làm cho cuộc sống của anh thêm ý nghĩa. Hy vọng rằng chúng ta sẽ cùng nhau trải qua nhiều Giáng Sinh vui vẻ và hạnh phúc hơn nữa. Chúc em có một mùa Giáng Sinh an lành, tràn ngập yêu thương và những điều tuyệt vời nhất. Anh yêu Em!";
+        if (normalizedUserName.includes('khanh2410')) {
+            messageContent = "Chúc vợ iuuu giáng sinh năm nay vuii vẻ, năm mới mong mọi điều tốt lành sẽ đến với 2 đứa. \n\nMong rằng mỗi khoảnh khắc của em đều tràn đầy niềm vui và hạnh phúc cùng với anhh. Cảm ơn vợ vì làm cuộc sống ck thêm í nghĩa. Hy vọng rằng chúng ta sẽ cùng nhau trải qua nhiều Giáng Sinh vui vẻ và hạnh phúc hơn nữa. Chúc em có một mùa Giáng Sinh an lành, tràn ngập yêu thương và những điều tuyệt vời nhất. Anh yêu Em!";
         } else {
             // All other names get the same message as 'tan'
             const userName = document.querySelector('.recipient-name').textContent;
-            messageContent = `Giáng sinh đã đến, chúc ${userName} có một giáng sinh vui vẻ bên gia đình và bạn bè!
-    
-Mong mọi điều tốt đẹp đến với bạn, mong ${userName} thành công vui vẻ trong năm mới. Hy vọng rằng chúng ta sẽ vẫn là bạn bè, đồng hành cùng nhau trong nhiều giáng sinh tới!\n\n Chúc gia đình ${userName} cũng sẽ nhận được nhiều phúc lành từ chúa nha!\n\n Merry Christmas!`;
+            messageContent = `Giáng sinh đã đến, chúc ${userName} có một giáng sinh đầy ắp niềm vui bên gia đình và bạn bè thân yêu!
+
+Mong rằng mọi điều tốt đẹp sẽ đến với bạn trong mùa lễ này và suốt cả năm mới sắp tới. Chúc ${userName} gặt hái được nhiều thành công và hạnh phúc.
+
+Hy vọng rằng chúng ta sẽ tiếp tục là những người bạn tốt, cùng nhau chia sẻ những khoảnh khắc đáng nhớ trong nhiều mùa Giáng sinh tới!
+
+Chúc gia đình ${userName} nhận được thật nhiều phúc lành và tình yêu từ Chúa. Mong rằng mùa lễ này sẽ mang đến cho mọi người nhiều tiếng cười và hạnh phúc.
+
+Merry Christmas và một năm mới an khang thịnh vượng! love you!
+`;
         }
         
         document.querySelector('.letter-body').textContent = messageContent;
